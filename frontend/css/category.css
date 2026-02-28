@@ -1,0 +1,12 @@
+select{
+    background:#f9fafb;
+    cursor:pointer;
+}
+
+.card h2{
+    color:#111827;
+}
+
+button{
+    width:100%;
+}

@@ -1,0 +1,14 @@
+.container h1{
+    font-size:32px;
+    color:#111827;
+}
+
+.container p{
+    color:#6b7280;
+    margin-bottom:20px;
+    line-height:1.6;
+}
+
+.card button{
+    width:80%;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select Category</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/category.css">
+</head>
+<body>
+    <h2>What decision would you like help with today?</h2>
+    <div class="category-container">
+        <button id="btn-education">🎓 Education</button>
+        <button id="btn-purchase">💻 Product Purchase</button>
+        <button id="btn-career">💼 Career Choice</button>
+        <button id="btn-personal">🏠 Personal Decision</button>
+    </div>
+
+    <script>
+        // Redirect based on button clicked
+        const routes = {
+            "btn-education": "education.html",
+            "btn-purchase": "purchase.html",
+            "btn-career": "career.html",
+            "btn-personal": "personal.html",
+            "btn-custom": "custom.html"
+        };
+
+        Object.keys(routes).forEach(id => {
+            const btn = document.getElementById(id);
+            if(btn){
+                btn.addEventListener("click", () => {
+                    window.location.href = routes[id];
+                });
+            }
+        });
+    </script>
+</body>
+</html>

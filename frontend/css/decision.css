@@ -1,0 +1,20 @@
+.card input{
+    background:#f9fafb;
+}
+
+.card h2{
+    color:#111827;
+}
+
+.card button{
+    width:100%;
+}
+
+.next-btn{
+    margin-top:20px;
+    background:#10b981;
+}
+
+.next-btn:hover{
+    background:#059669;
+}

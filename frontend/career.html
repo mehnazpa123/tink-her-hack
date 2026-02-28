@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Career Options</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="navbar">Career Options</div>
+
+<div class="container card">
+    <h2>Select a Career</h2>
+    <select id="option_name">
+        <option value="">-- Select an Option --</option>
+        <option value="Software Developer">Software Developer</option>
+        <option value="Data Scientist">Data Scientist</option>
+        <option value="Teacher">Teacher</option>
+        <option value="Doctor">Doctor</option>
+        <option value="Engineer">Engineer</option>
+    </select>
+
+    <br><br>
+    <button onclick="saveOption()">Next → Add Factors</button>
+</div>
+
+<script>
+function saveOption() {
+    const option = document.getElementById("option_name").value;
+    if (!option) { alert("Please select an option!"); return; }
+
+    localStorage.setItem("options", JSON.stringify([option]));
+    window.location.href = "factors.html";
+}
+</script>
+
+</body>
+</html>

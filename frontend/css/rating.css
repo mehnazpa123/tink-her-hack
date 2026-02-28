@@ -1,0 +1,21 @@
+.card{
+    width:450px;
+}
+
+.card h2{
+    color:#111827;
+}
+
+input{
+    text-align:center;
+}
+
+button{
+    width:100%;
+}
+
+.rating-info{
+    font-size:14px;
+    color:#6b7280;
+    margin-bottom:10px;
+}
