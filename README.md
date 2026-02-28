@@ -97,9 +97,6 @@ nil
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
-
 Page Flow:
 Home → Demo → Login/Register → Category → Add Options → Add Factors → Rate Options → Result
 
@@ -130,6 +127,7 @@ nil
 
 ### Video
 
+"https://drive.google.com/file/d/1MoMMTlXLhIn0N5qVlm8PX8bvBi7mQrIa/view?usp=sharing"
 
 *Explain what the video demonstrates - key features, user flow, technical highlights*
 
