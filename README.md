@@ -2,28 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# Decision Helper🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: InnovHer
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Mehnaz P A - TKM College Of Engineering
+- Member 2: Ayisha Thanha - TKM College Of Engineering
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://tink-her-hack-navy.vercel.app/
 
 ### Project Description
-[2-3 lines about what your project does]
+Decision Helper is a frontend-only web application that helps users make decisions by comparing multiple options based on factors that matter to them. Users can select a category, add options, define factors, rate each option, and get the best recommendation – all in a simple and interactive interface.
 
 ### The Problem statement
-[What problem are you solving?]
+Many people struggle to make decisions when faced with multiple options and conflicting factors. Manual comparison can be time-consuming and confusing, leading to suboptimal choices. Decision Helper aims to simplify this process by providing an interactive, frontend-only web application that helps users evaluate options based on personalized factors and ratings, enabling them to make informed decisions quickly and confidently.
 
 ### The Solution
-[How are you solving it?]
-
+We are solving the problem by building a simple, interactive web application using HTML, CSS, and JavaScript. Users can add options, define important factors, rate each option, and get a recommended choice based on their ratings. This helps users make decisions quickly and confidently without confusion.
 ---
 
 ## Technical Details
@@ -31,26 +30,30 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+Languages used: HTML, CSS, JavaScript
+
+Frameworks used: None (frontend-only project)
+
+Libraries used: None (pure vanilla JavaScript)
+
+Tools used: VS Code, Git/GitHub
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
-
+nil
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+User-Friendly Interface: Simple navigation from Home → Demo → Login/Register → Decision Pages
 
+Decision Categories: Education, Career, Product Purchase, Personal, Custom
+
+Add Options & Factors: Users can enter multiple choices and decision factors
+
+Rate Options & Get Results: Compare options visually and get recommended choice
+
+Demo-Ready: Works fully in the browser using localStorage
 ---
 
 ## Implementation
@@ -58,9 +61,19 @@ List the key features of your project:
 ### For Software:
 
 #### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
+Clone the repository:
+
+git clone https://github.com/yourusername/decision-helper.git
+cd decision-helper
+
+Open the project in a browser:
+
+Open public/index.html to start the app
+
+Run
+
+Simply double-click index.html or host on GitHub Pages
+
 
 #### Run
 ```bash
@@ -69,14 +82,7 @@ List the key features of your project:
 
 ### For Hardware:
 
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
----
-
+nil
 ## Project Documentation
 
 ### For Software:
@@ -99,22 +105,9 @@ List the key features of your project:
 ![Architecture Diagram](docs/architecture.png)
 *Explain your system architecture - components, data flow, tech stack interaction*
 
-**Application Workflow:**
+Page Flow:
+Home → Demo → Login/Register → Category → Add Options → Add Factors → Rate Options → Result
 
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
-
----
-
-### For Hardware:
-
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 #### Build Photos
 
